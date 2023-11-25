@@ -10,5 +10,5 @@ pip install -r requirements.txt
 
 # Collect static files
 python3.9 manage.py collectstatic --noinput
+python3.9 manage.py migrate
 python3.9 manage.py createsuperuser --noinput --username $DJANGO_SUPERUSER_USERNAME --email $DJANGO_SUPERUSER_EMAIL
-
