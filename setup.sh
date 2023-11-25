@@ -11,5 +11,10 @@ pip install -r requirements.txt
 # Collect static files
 python3.9 manage.py collectstatic --noinput
 
-# Create a superuser
-python3.9 manage.py createsuperuser --username "$DJANGO_ADMIN_USERNAME" --password "$DJANGO_SUPERUSER_PASSWORD"
+if [ "$DJANGO_SUPERUSER_USERNAME" ]
+then
+    python manage.py createsuperuser \
+        --noinput \
+        --username $DJANGO_SUPERUSER_USERNAME \
+        --email $DJANGO_SUPERUSER_EMAIL
+fi
