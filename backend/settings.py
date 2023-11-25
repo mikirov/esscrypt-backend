@@ -93,7 +93,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static')
+STATICFILES_DIRS = [STATIC_ROOT]
 STATIC_URL = "static/"
 # STATIC_URL = STATIC_ROOT
