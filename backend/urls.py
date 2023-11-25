@@ -13,4 +13,4 @@ urlpatterns = [
     path("admin/", admin.site.urls)
 ]
 
-urlpatterns.extend(static(settings.STATICFILES_DIRS, document_root=settings.STATIC_ROOT))
+urlpatterns.extend(static(settings.STATIC_URL, document_root=settings.STATIC_ROOT))
