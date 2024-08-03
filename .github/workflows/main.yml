@@ -24,10 +24,10 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Install Hugo
+    - name: Install Hugo Extended
       run: |
-        curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_Linux-64bit.tar.gz
-        tar -xzf hugo.tar.gz
+        curl -L -o hugo_extended.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_extended_0.131.0_Linux-64bit.tar.gz
+        tar -xzf hugo_extended.tar.gz
         sudo mv hugo /usr/local/bin/hugo
 
     - name: Run build
