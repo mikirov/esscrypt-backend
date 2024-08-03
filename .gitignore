@@ -7,3 +7,6 @@ yarn-error.log
 # Local Netlify folder
 .netlify
 yarn-error.log
+
+docs/*
+!docs/.gitkeep
