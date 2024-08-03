@@ -26,8 +26,9 @@ jobs:
 
     - name: Install Hugo
       run: |
-        wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.89.4/hugo_0.89.4_Linux-64bit.deb
-        sudo dpkg -i hugo.deb
+        curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.131.0/hugo_0.131.0_Linux-64bit.tar.gz
+        tar -xzf hugo.tar.gz
+        sudo mv hugo /usr/local/bin/hugo
 
     - name: Run build
       run: npm run build  # Your build script that generates output in /docs
