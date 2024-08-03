@@ -19,7 +19,7 @@ This document introduces a solution for achieving private transfers using a burn
 
 The successful implementation of this proposal will significantly enhance privacy in blockchain transactions. This innovation addresses a critical problem in the digital asset space - the lack of true anonymity. By safeguarding transaction details and user identities, our solution will benefit the community by fostering a more secure and private blockchain environment, encouraging broader adoption and trust in blockchain technology.
 
-![architecture](/images/private-transfers.jpeg)
+![architecture](../assets/images/posts/private-transfers.jpeg)
 
 # Example User Flow
 

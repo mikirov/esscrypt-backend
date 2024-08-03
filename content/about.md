@@ -4,7 +4,7 @@ date: 2021-12-18T11:10:36+08:00
 draft: false
 language: en
 description: About Us
-featured_image: ../assets/images/featured/featured-img-placeholder.png
+# featured_image: ../assets/images/featured/featured-img-placeholder.png
 ---
 # Who We Are
 
@@ -35,8 +35,8 @@ At Esscrypt, we offer a comprehensive range of software services designed to mee
 To learn more about Esscrypt and how our solutions can benefit your business, please contact us:
 
 - **Email**: info@esscrypt.com
-- **Phone**: +359886991516
-- **Website**: [www.esscrypt.com](http://www.esscrypt.com)
+- **WhatsApp**: +359886991516
+- **Telegram**: https://t.me/mihail_kirov
 
 ---
 

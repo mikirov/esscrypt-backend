@@ -57,7 +57,7 @@ params:
 
   p1:
     heading: "Our Mission"
-    image: "images/pages/our-mission.png"
+    image: "images/pages/our-mission.png" 
     content:
       - text: "Esscrypt is dedicated to empowering businesses by providing cutting-edge software solutions that enhance operational efficiency and foster innovation. We strive to transform industries through digital excellence, leveraging the latest technologies in blockchain, AI, and cloud services."
       - text: "Our commitment to integrity, collaboration, and customer satisfaction drives us to deliver high-quality services that exceed client expectations. We aim to be a trusted technology partner, enabling clients to achieve their business objectives through comprehensive, customized software strategies."
