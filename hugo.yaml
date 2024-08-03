@@ -10,6 +10,7 @@ paginate: 9
 darkmode_js:
   - assets/js/darkmode.js
 enableInlineShortcodes: true
+publishDir: "docs"
 
 markup:
   goldmark:

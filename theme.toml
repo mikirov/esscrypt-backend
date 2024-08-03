@@ -5,7 +5,7 @@ description = "Esscrypt delivers innovative software solutions, focusing on cust
 
 # The home page of the theme, where the source can be found.
 homepage = "https://github.com/nusserstudios/tailbliss"
-
+publishDir = "docs"
 # If you have a running demo of the theme.
 # demosite = "https://tailbliss.netlify.app/"
 
